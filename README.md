@@ -50,31 +50,56 @@ To run ChatGPT Clone locally, follow these steps:
 
 <h3>1. Clone the repository:</h3>
 
-git clone https://github.com/yourusername/SigmaGPTApp.git
+<div class="bg-light p-3 rounded border">
+  <pre class="mb-0">
+    <code>git clone https://github.com/yourusername/SigmaGPTApp.git</code></pre>
+</div>
+
 <h3>2. Navigate to the project directory:</h3>
 
-cd SigmaGPTApp
+<div class="bg-light p-3 rounded border">
+  <pre class="mb-0">
+    <code>cd SigmaGPTApp</code></pre>
+</div>
 <h3>3. Install the dependencies for both the frontend and backend:</h3>
 
-npm install
+<div class="bg-light p-3 rounded border">
+  <pre class="mb-0">
+    <code>npm install</code></pre>
+</div>
 <h3>4. Set up environment variables:</h3>
 
 Create a .env file in the root directory and configure the following variables:
 
-MONGO_URI=<your_mongodb_uri><br>
-OPENAI_API_KEY=<your_openai_api_key><br>
+<div class="bg-light p-3 rounded border">
+  <pre class="mb-0">
+    <code>MONGO_URI=&lt;your_mongodb_uri&gt;</code></pre>
+</div>
+<div class="bg-light p-3 rounded border">
+  <pre class="mb-0">
+    <code>OPENAI_API_KEY=&lt;your_openai_api_key&gt;</code></pre>
+</div>
 
 <h3>5. Run the development server:</h3>
 
 For the backend:
 
-nodemon server.js<br>
+<div class="bg-light p-3 rounded border">
+  <pre class="mb-0">
+    <code>nodemon server.js</code></pre>
+</div>
 For the frontend:
 
-npm run dev
+<div class="bg-light p-3 rounded border">
+  <pre class="mb-0">
+    <code>npm run dev</code></pre>
+</div>
 <h3>6. Open your browser and navigate to:</h3>
 
-http://localhost:5173
+<div class="bg-light p-3 rounded border">
+  <pre class="mb-0">
+    <code>http://localhost:5173</code></pre>
+</div>
 <h2>Usage</h2>
 Once the application is running, you can:
 
@@ -85,7 +110,10 @@ Once the application is running, you can:
 <h2>Deployment</h2>
 ChatGPT Clone is deployed on Render. For deployment, ensure you have the Render CLI configured and use the following commands to deploy the application:
 
-npm run deploy<br>
+<div class="bg-light p-3 rounded border">
+  <pre class="mb-0">
+    <code>npm run deploy</code></pre>
+</div>
 Ensure your Render credentials and services are properly set up for deployment.
 
 <h2>License</h2>
